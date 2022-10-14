@@ -5,7 +5,7 @@ import turtle
 import time
 import random
 
-delay = 0.1
+delay = 0.09
 
 # Score
 score = 0
@@ -17,6 +17,8 @@ wn.title("Snake Game by @TokyoEdTech")
 wn.bgcolor("green")
 wn.setup(width=600, height=600)
 wn.tracer(0) # Turns off the screen updates
+
+# Thêm comment ng
 
 # Snake head
 head = turtle.Turtle()
